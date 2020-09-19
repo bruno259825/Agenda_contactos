@@ -1,0 +1,54 @@
+body{
+    background: url('img/patron.jpg') #7b3737;
+    opacity: 0.9;
+    
+   
+}
+
+.icono{
+    max-width: 30px;
+    
+    max-height: 30px;
+}
+
+
+/*CONTACTOS*/
+.herramientas ul{
+    list-style: none;
+}
+
+
+.icono-contacto{
+    max-width: 125px;
+    max-height: 70px;
+}
+
+.contactos>div:hover{
+    background: #4a3535;
+    cursor: pointer;
+}
+
+
+.error{
+    color: #b79797;
+}
+
+
+@media (min-width: 992px) { 
+    .contenedor-contactos{
+        min-height:550px; 
+    }
+
+}
+@media (max-width: 576px) { 
+    .foto-perfil{
+        min-height: 90px;
+        min-width: 90px;
+    }
+    
+    .icono-contacto{
+        max-width: 55px;
+        max-height: 55px;
+    }
+
+}
